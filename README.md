@@ -92,3 +92,15 @@ php artisan migrate --seed
 npm run dev  
 php artisan serve  
 Buka di browser: http://localhost:8000  
+
+---
+
+## 📄 Dokumentasi Tambahan
+
+- **Activity Diagram**: [`activity-diagram.png`](./activity-diagram.png)  
+  Menjelaskan alur proses pemesanan kendaraan mulai dari login, input, hingga persetujuan oleh approver.
+
+- **Physical Data Model (PDM)**: [`pdm.png`](./pdm.png)  
+  Menampilkan relasi tabel dalam sistem pemesanan kendaraan, seperti `users`, `vehicles`, `reservations`, dan `approval_logs`.
+
+Semua file dokumentasi tersebut disimpan di direktori utama (root) dari repository ini.
