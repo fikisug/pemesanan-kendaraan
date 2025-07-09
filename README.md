@@ -54,41 +54,41 @@ Aplikasi Laravel untuk mengelola proses pemesanan kendaraan dengan sistem perset
 
 ### 1. Clone dan Masuk Folder
 
-git clone https://github.com/namapengguna/nama-repo.git
-cd nama-repo
+git clone https://github.com/namapengguna/nama-repo.git  
+cd nama-repo  
 
 ---
 
 ### 2. Install Dependency
 
-composer install
+composer install  
 npm install  
 
 ---
 
 ### 3. Salin File .env
 
-cp .env.example .env
-php artisan key:generate
+cp .env.example .env  
+php artisan key:generate  
 
 ---
 
 ### 4. Edit .env dan atur koneksi database:
 
-DB_DATABASE=your_db
-DB_USERNAME=root
-DB_PASSWORD=
+DB_DATABASE=your_db  
+DB_USERNAME=root  
+DB_PASSWORD=  
 
 ---
 
 ### 5. Jalankan Migrasi dan Seeder
 
-php artisan migrate --seed
+php artisan migrate --seed  
 
 ---
 
 ### 6. Jalankan Server
 
-npm run dev
-php artisan serve
-Buka di browser: http://localhost:8000
+npm run dev  
+php artisan serve  
+Buka di browser: http://localhost:8000  
